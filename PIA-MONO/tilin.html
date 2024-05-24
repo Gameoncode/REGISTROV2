@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIA</title>
+    <style>
+        :root {
+  color-scheme: dark;
+}
+
+
+body {
+  color: CanvasText;
+  background-color: Canvas;
+  display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            
+  
+}
+
+.CENTRATEPUTA form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .CENTRATEPUTA button {
+            width: 10rem;
+            height: 5rem;
+            
+        }
+
+            .CENTRATEPUTA input {
+                width: 10rem;
+                height: 5rem;
+                
+            }
+
+            ::placeholder {
+                font-size: 20px;
+               /*font-weight:bold;*/
+            }
+        
+ .Matricula {
+    font-size: 5rem;
+    padding: 2rem;
+ }       
+    </style>
+
+</head>
+<body>
+    <div class="CENTRATEPUTA">
+        <form action="#"><!--JS,PHP-->
+            <div class="CENTRAMEPUTAMIERDADECSSPENDEJOMASPENDEJOQUEJULIANHACIENDOCODIGO">
+                <label for="Matricula" class="Matricula">Matrícula:</label>
+                <input type="text" id="Matricula" name="Matricula" maxlength="7" minlength="7" required pattern="\d{7}" title="La Matrícula debe contener 7 dígitos" placeholder="Ej. 2587654">
+                <button type="submit">Confirmar</button>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
